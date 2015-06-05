@@ -36,5 +36,5 @@ int main()
 	if(*x == 'o')
 		cout << (*x == 'o') << endl;
 	else
-		cout << (*x == 'o') << " " << x << endl;
+		cout << (*x == 'o') << " " << ( x == (a + 10))<< endl;
 }
